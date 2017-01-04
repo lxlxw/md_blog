@@ -1,0 +1,136 @@
+/* ---------- base ---------- */
+* {
+    margin: 0;
+    padding: 0
+}
+
+html, body, #container {
+    height: 100%;
+}
+a:link,a:visited {
+	color:#888;text-decoration:none;
+}
+
+a:hover,a:active {
+	color:#4078c0;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Microsoft Yahei', sans-serif;
+    animation-duration: 1s;
+}
+
+a {
+    outline: 0;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background: #E3E3E3;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #D3D3D3;
+}
+
+::selection {
+    color: #FFF;
+    background: #FF4D29;
+}
+
+/* ---------- base ---------- */
+
+/* ---------- home ---------- */
+#sidebar {
+    position: fixed;
+    text-align: center;
+    width: 250px;
+    height: 100%;
+    border-right: 10px solid #E6E6E6;
+    background: #222;
+}
+
+#sidebar > #logo {
+    margin: 50px auto 5px auto;
+	font-size: 15px;
+    width: 139px;
+    height: 50px;
+	color: #888;
+}
+#sidebar > #aboutus {
+    margin: 5px auto 5px auto;
+	font-size: 13px;
+    width: 200px;
+    height: 190px;
+	color: #888;
+}
+
+#main {
+    margin-left: 260px;
+    height: 100%;
+    line-height: 35px;
+    overflow: auto;
+    background: #FFF;
+}
+
+#main > #list {
+    padding: 30px;
+}
+
+#main > #list > ul > li {
+    list-style: none;
+}
+
+#main > #list > ul > li > a {
+    display: block;
+    padding: 2px 20px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    transition: all 0.3s ease-out;
+    color: #888;
+}
+
+#main > #list > ul > li > a:hover {
+    background: #F6F6F6;
+}
+
+#main > #list > ul > li > a > .date {
+    margin-left: 20px;
+    letter-spacing: 1px;
+    color: #CCC;
+    font-size: 12px;
+}
+
+/* ---------- home ---------- */
+
+/* ---------- post ---------- */
+#main > #post {
+    padding: 30px 55px;
+}
+
+#main > #post > #title {
+    margin-bottom: 30px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #666;
+}
+
+#main > #post > #title > #date {
+    margin: 0 20px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #CCC;
+}
+
+#main > #post > #title > #back {
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #CCC;
+}
+
+/* ---------- post ---------- */
